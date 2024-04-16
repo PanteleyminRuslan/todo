@@ -1,0 +1,80 @@
+body {
+  background-color: #0000FF;
+}
+
+.makeCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer {
+  background: rgba(245, 245, 245, 0.59);
+  width: 1000px;
+  height: 670px;
+  border: 1px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.blockInContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.textContainer {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56.88px;
+  color: rgba(17, 23, 94, 1);
+  padding: 50px 0px;
+  
+}
+
+.btnCreate {
+  border: 1px;
+  background: rgba(45, 112, 253, 1);
+  height: 44px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500px;
+  cursor: pointer;
+}
+
+.btnText {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500px;
+  padding: 12px 24px;
+  font-weight: 500px;
+  color: #FFF;
+}
+
+.taskInput {
+  padding: 20px 20px;
+  width: 425px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+.selected {
+  background-color: #e0e0e0;
+  font-weight: bold;
+  color: #333;
+}
+
